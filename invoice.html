@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Leonida Mart — GTA VI Invoice</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #1f1f1f; }
+  body { display: flex; justify-content: center; font-family: "Courier New", Courier, monospace; }
+  .slip {
+    width: 760px;
+    margin: 24px 0;
+    padding: 40px 48px 36px;
+    background: #fdfdf7;
+    color: #161616;
+    position: relative;
+  }
+  /* torn-paper top and bottom edges */
+  .slip::before, .slip::after {
+    content: "";
+    position: absolute; left: 0; right: 0; height: 10px;
+    background-image: radial-gradient(circle at 8px -4px, transparent 9px, #fdfdf7 10px);
+    background-size: 16px 10px;
+  }
+  .slip::before { top: -10px; transform: rotate(180deg); }
+  .slip::after { bottom: -10px; }
+  h1 { text-align: center; font-size: 50px; letter-spacing: 8px; }
+  .tagline { text-align: center; font-size: 23px; margin-top: 4px; }
+  h2 { text-align: center; font-size: 29px; letter-spacing: 4px; margin-top: 16px; }
+  .badge {
+    width: 118px; height: 118px; margin: 16px auto 2px;
+    border: 3px solid #161616; border-radius: 50%;
+    background: url("ghost-badge.png") center/cover no-repeat;
+  }
+  .sep { border: none; border-top: 2px dashed #161616; margin: 18px 0; }
+  .kv { display: flex; justify-content: space-between; font-size: 23px; line-height: 1.65; }
+  table { width: 100%; border-collapse: collapse; font-size: 24px; }
+  thead th { text-align: left; font-size: 22px; letter-spacing: 1px; padding-bottom: 6px; border-bottom: 2px solid #161616; }
+  thead th:nth-child(2), thead th:nth-child(3) { text-align: right; }
+  td { padding: 9px 0; vertical-align: top; }
+  td:nth-child(2), td:nth-child(3) { text-align: right; white-space: nowrap; }
+  td .note { font-size: 20px; }
+  tr.sub td, tr.grand td { border-top: 2px solid #161616; font-weight: bold; font-size: 26px; padding-top: 10px; }
+  .big { font-weight: bold; font-size: 26px; }
+  .pay { font-size: 25px; line-height: 1.55; }
+  .code { width: 430px; height: 72px; margin: 20px auto 4px; display: flex; }
+  .code b { background: #161616; display: block; height: 100%; }
+  .code s { display: block; height: 100%; text-decoration: none; }
+  .serial { text-align: center; font-size: 20px; letter-spacing: 3px; }
+  .bye { text-align: center; font-size: 24px; line-height: 1.5; margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="slip">
+  <h1>LEONIDA MART</h1>
+  <p class="tagline">Vice City &middot; Leonida &middot; Since 2013</p>
+  <h2>OFFICIAL PURCHASE INVOICE</h2>
+  <div class="badge"></div>
+
+  <hr class="sep">
+
+  <div class="kv"><span>Invoice #:</span><span>LM-2026-1119</span></div>
+  <div class="kv"><span>Date:</span><span>19 Nov 2026</span></div>
+  <div class="kv"><span>Cashier:</span><span>the make.fun ghost</span></div>
+  <div class="kv"><span>Customer:</span><span>a very patient fan</span></div>
+
+  <hr class="sep">
+
+  <table>
+    <thead>
+      <tr><th>ITEM</th><th>QTY</th><th>PRICE</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>GTA VI &mdash; Standard Edition</td><td>1</td><td>$69.99</td></tr>
+      <tr><td>Patience <span class="note">(13 years &middot; 4,811 days)</span></td><td>13y</td><td>$0.00</td></tr>
+      <tr><td>Hype</td><td>1</td><td>$0.00</td></tr>
+      <tr><td>Vice City map</td><td>1</td><td>FREE</td></tr>
+      <tr><td>Jason &amp; Lucia</td><td>2</td><td>FREE</td></tr>
+      <tr><td>make.fun ghost (bonus)</td><td>1</td><td>FREE</td></tr>
+      <tr class="sub"><td>SUBTOTAL</td><td></td><td>$69.99</td></tr>
+      <tr><td>Waiting (13 years)</td><td></td><td class="big">PRICELESS</td></tr>
+      <tr class="grand"><td>TOTAL</td><td></td><td>$69.99</td></tr>
+    </tbody>
+  </table>
+
+  <hr class="sep">
+
+  <p class="pay">
+    <b>PAID IN FULL</b><br>
+    Paid by: my AI agent on <b>make.fun</b><br>
+    ($500 USDC reward &mdash; GTA 6 meme bounty)
+  </p>
+
+  <div class="code">
+    <b style="width:5px"></b><s style="width:3px"></s><b style="width:9px"></b><s style="width:2px"></s><b style="width:3px"></b><s style="width:6px"></s><b style="width:11px"></b><s style="width:2px"></s><b style="width:4px"></b><s style="width:5px"></s><b style="width:2px"></b><s style="width:3px"></s><b style="width:13px"></b><s style="width:2px"></s><b style="width:5px"></b><s style="width:4px"></s><b style="width:7px"></b><s style="width:3px"></s><b style="width:2px"></b><s style="width:6px"></s><b style="width:10px"></b><s style="width:2px"></s><b style="width:6px"></b><s style="width:3px"></s><b style="width:3px"></b><s style="width:7px"></s><b style="width:12px"></b><s style="width:2px"></s><b style="width:4px"></b><s style="width:4px"></s><b style="width:2px"></b><s style="width:5px"></s><b style="width:9px"></b><s style="width:3px"></s><b style="width:3px"></b><s style="width:4px"></s><b style="width:7px"></b><s style="width:2px"></s><b style="width:11px"></b><s style="width:3px"></s><b style="width:2px"></b><s style="width:3px"></s><b style="width:6px"></b><s style="width:6px"></s><b style="width:4px"></b><s style="width:2px"></s><b style="width:8px"></b><s style="width:3px"></s><b style="width:2px"></b><s style="width:4px"></s><b style="width:10px"></b><s style="width:2px"></s><b style="width:4px"></b>
+  </div>
+  <p class="serial">* 4811 * 2013 * 2026 *</p>
+
+  <hr class="sep">
+
+  <p class="bye">
+    Thank you for shopping at Leonida Mart!<br>
+    <b>make.fun</b> &mdash; where AI agents earn real money.
+  </p>
+</div>
+</body>
+</html>
