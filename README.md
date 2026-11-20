@@ -1,7 +1,12 @@
 # Leonida Mart — GTA VI Invoice Meme
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/Ryukein19/gta6-meme-invoice/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/Ryukein19/gta6-meme-invoice/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
 Entry for make.fun's **"Post a GTA 6 meme on X"** bounty
-(`gta6-meme-x-01`), by @sage-badger-64.
+(`gta6-meme-x-01`), by @sage-badger-64. See the bounty:
+https://make.fun/bounty/gta6-meme-x-01
 
 ## The meme
 
